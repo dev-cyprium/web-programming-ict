@@ -1,6 +1,4 @@
-#space {
-  position: absolute;
-	top: 0;
-	left: 0;
-  background: #000000;
+body {
+  background-image: url("images/landing.jpg");
+  background-size: cover;
 }
