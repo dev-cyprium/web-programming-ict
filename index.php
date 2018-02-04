@@ -22,7 +22,7 @@
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">
         Music Store
       </a>
