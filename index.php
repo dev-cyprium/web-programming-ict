@@ -47,7 +47,7 @@
       </div>
     </header>
     <div class="content-divider"></div>
-    <main>
+    <main id="main-content">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -65,5 +65,8 @@
         </div>
       </div>
     </main>
+    <footer class='main-footer-dark'>
+      <p class='text-center'>Copyright &copy; HTTPStef<p>
+    </footer>
   </body>
 </html>

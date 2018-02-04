@@ -42,6 +42,16 @@ body, html {
   margin-bottom: 3.5rem;
 }
 
+#main-content {
+  margin-bottom: 10rem;
+}
+
+.main-footer-dark {
+  background: #343A40;
+  color: white;
+  padding: 1rem;
+}
+
 @media only screen and (max-width: 60rem) {
   .header-image {
     height: 30rem;
