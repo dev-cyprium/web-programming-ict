@@ -2,6 +2,15 @@ body, html {
   height: 100%;
 }
 
+a {
+  color: #9BCF00;
+}
+
+a:hover,
+a:active{
+  color: #658700;
+}
+
 .header-image {
   background-image: url("images/landing-2.jpg");
   height: 40rem;
@@ -50,6 +59,14 @@ body, html {
   background: #343A40;
   color: white;
   padding: 1rem;
+}
+
+.main-footer-dark p {
+  margin: .35em 0;
+}
+
+.main-footer-dark p:last-child {
+  font-size: .75rem;
 }
 
 .main-link {

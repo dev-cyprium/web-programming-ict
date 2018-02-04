@@ -69,7 +69,8 @@
       </div>
     </main>
     <footer class='main-footer-dark'>
-      <p class='text-center'>Copyright &copy; HTTPStef<p>
+      <p class='text-center'>Open Source softwere under MIT licence<p>
+      <p class='text-center'>Stefan Kupresak | <a href="www.bluegrid.io">Blue Grid Doo</a></p>  
     </footer>
   </body>
 </html>
