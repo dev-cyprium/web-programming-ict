@@ -53,14 +53,17 @@
           <div class="col">
             <h1 class='text-center'>Instruments</h1>
             <p>Very large invetory of musical instruments including top brand guitars, drums, bass guitars.</p>
+            <a href='#' class='btn btn-primary d-block mx-auto main-link'>Instruments</a>
           </div>
           <div class="col">
             <h1 class='text-center'>Music</h1>
             <p>Tons of retro music records, with perserved records dating back to 50's</p>
+            <a href='#' class='btn btn-primary d-block mx-auto main-link'>Music</a>
           </div>
           <div class="col">
             <h1 class='text-center'>Utilities</h1>
             <p>Guitar picks, amps, cables, mixers. You name it, we have it!</p>
+            <a href='#' class='btn btn-primary d-block mx-auto main-link'>Utilities</a>
           </div>
         </div>
       </div>

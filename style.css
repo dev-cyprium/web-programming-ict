@@ -52,6 +52,20 @@ body, html {
   padding: 1rem;
 }
 
+.main-link {
+  width: 50%;
+}
+
+.btn-primary {
+  background: #343A40;
+  border: black;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background: #181c21;
+}
+
 @media only screen and (max-width: 60rem) {
   .header-image {
     height: 30rem;
