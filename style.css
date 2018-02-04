@@ -59,6 +59,15 @@ a:focus {
   margin-bottom: 10rem;
 }
 
+#main-content .col {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-content .col p {
+  margin-bottom: auto !important;
+}
+
 .main-footer-dark {
   background: #343A40;
   color: white;
@@ -75,7 +84,7 @@ a:focus {
 
 .main-link {
   width: 50%;
-  margin-top: 2.2rem;
+  margin-top: 1em;
 }
 
 .btn-primary {
