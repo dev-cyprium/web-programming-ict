@@ -1,11 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
 body, html {
   height: 100%;
 }
 
-body {
-  background-image: url("images/landing.jpg");
-
-  background-position: center;
+.header-image {
+  background-image: url("images/landing-2.jpg");
+  height: 40rem;
   background-repeat: no-repeat;
   background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gloria Hallelujah";
+}
+
+.header-image h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  text-shadow: 5px 2px 3px #black;
+}
+
+.header-image h2 {
+  color: #f1f1f1;
+  text-transform: uppercase;
+  margin: 2rem;
+
+}
+
+.name-wrapper {
+  background: #343A40;
+  color: black;
+  padding: 3rem;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 60rem) {
+  .header-image {
+    height: 30rem;
+  }
 }

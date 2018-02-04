@@ -16,7 +16,7 @@
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        Music Shop
+        Music Store
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
@@ -38,5 +38,11 @@
         </ul>
       </div>
     </nav>
+    <header class='header-image'>
+      <div class="name-wrapper">
+        <h1 class='text-center'>Choral</h1>
+        <h2 class='text-center'>Music Shop</h2>
+      </div>
+    </header>
   </body>
 </html>
