@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400');
+
 body, html {
   height: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -7,7 +10,8 @@ a {
 }
 
 a:hover,
-a:active{
+a:active,
+a:focus {
   color: #658700;
 }
 
@@ -26,22 +30,22 @@ a:active{
   font-size: 4rem;
   text-transform: uppercase;
   color: white;
-  font-weight: 700;
-  text-shadow: 5px 2px 3px #black;
+  font-weight: lighter;
+  text-shadow: 5px 2px 3px #232323;
+  margin-bottom: 0;
 }
 
 .header-image h2 {
-  color: #f1f1f1;
-  text-transform: uppercase;
-  margin: 2rem;
-
+  color: #6b747d;
+  text-transform: lowercase;
+  margin: 0 1em;
 }
 
 .name-wrapper {
   background: #343A40;
   color: black;
-  padding: 3rem;
-  border-radius: 5px;
+  padding: 5rem;
+  border-radius: 10px;
 }
 
 .content-divider {
@@ -80,7 +84,8 @@ a:active{
 }
 
 .btn-primary:hover,
-.btn-primary:active {
+.btn-primary:active,
+.btn-primary:focus {
   background: #181c21;
 }
 
