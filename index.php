@@ -12,6 +12,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -44,5 +46,24 @@
         <h2 class='text-center'>Music Shop</h2>
       </div>
     </header>
+    <div class="content-divider"></div>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class='text-center'>Instruments</h1>
+            <p>Very large invetory of musical instruments including top brand guitars, drums, bass guitars.</p>
+          </div>
+          <div class="col">
+            <h1 class='text-center'>Music</h1>
+            <p>Tons of retro music records, with perserved records dating back to 50's</p>
+          </div>
+          <div class="col">
+            <h1 class='text-center'>Utilities</h1>
+            <p>Guitar picks, amps, cables, mixers. You name it, we have it!</p>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
