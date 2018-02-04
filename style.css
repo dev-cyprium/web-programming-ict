@@ -25,6 +25,10 @@ a:focus {
   justify-content: center;
 }
 
+.border-bottom-black {
+  border-bottom: 1px solid black;
+}
+
 .header-image h1 {
   font-size: 4rem;
   text-transform: uppercase;
@@ -68,6 +72,7 @@ a:focus {
 }
 
 .main-footer-dark {
+  font-size: 1.3rem;
   background: #343A40;
   color: white;
   padding: 1rem;
@@ -78,7 +83,12 @@ a:focus {
 }
 
 .main-footer-dark p:last-child {
-  font-size: .75rem;
+  font-size: .55em;
+}
+
+.main-footer-dark span,
+.main-footer-dark a {
+  margin: .75em;
 }
 
 .main-link {
@@ -89,12 +99,17 @@ a:focus {
 .btn-primary {
   background: #343A40;
   border: black;
+  color: white;
 }
 
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus {
-  background: #181c21;
+a.btn-primary:hover,
+a.btn-primary:focus,
+a.btn-primary:visited {
+  color: white !important;
+  background: #181c21 !important;
+  border: black !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 @media only screen and (max-width: 60rem) {

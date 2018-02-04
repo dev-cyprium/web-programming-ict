@@ -22,7 +22,7 @@
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top border-bottom-black">
       <a class="navbar-brand" href="#">
         Music Store
       </a>
@@ -76,7 +76,7 @@
     </main>
     <footer class='main-footer-dark'>
       <p class='text-center'>Open Source softwere under MIT licence<p>
-      <p class='text-center'>Stefan Kupresak | <a href="http://www.bluegrid.io/" target="_blank">Blue Grid Doo</a> | <a href="https://github.com/dev-cyprium/web-programming-ict" target="_blank"> GitHub</a></p>
+      <p class='text-center'><span>Stefan Kupresak</span> | <a href="http://www.bluegrid.io/" target="_blank">Blue Grid Doo</a> | <a href="https://github.com/dev-cyprium/web-programming-ict" target="_blank"> GitHub</a></p>
     </footer>
   </body>
 </html>
