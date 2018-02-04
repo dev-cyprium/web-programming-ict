@@ -70,7 +70,7 @@
     </main>
     <footer class='main-footer-dark'>
       <p class='text-center'>Open Source softwere under MIT licence<p>
-      <p class='text-center'>Stefan Kupresak | <a href="www.bluegrid.io">Blue Grid Doo</a></p>  
+      <p class='text-center'>Stefan Kupresak | <a href="http://www.bluegrid.io/" target="_blank">Blue Grid Doo</a> | <a href="https://github.com/dev-cyprium/web-programming-ict" target="_blank"> GitHub</a></p>
     </footer>
   </body>
 </html>
