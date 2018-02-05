@@ -23,6 +23,7 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .border-bottom-black {
@@ -30,7 +31,7 @@ a:focus {
 }
 
 .header-image h1 {
-  font-size: 4rem;
+  font-size: 8rem;
   text-transform: uppercase;
   color: white;
   font-weight: lighter;
@@ -39,24 +40,19 @@ a:focus {
 }
 
 .header-image h2 {
-  color: #6b747d;
+  color: #77AE22;
   text-transform: lowercase;
-  margin: 0 1em;
+  margin: -0.5em 1em;
+  font-size: 4em;
+  font-style: italic;
 }
 
 .name-wrapper {
-  background: #343A40;
   color: black;
   padding: 5rem;
   border-radius: 10px;
 }
 
-.content-divider {
-  min-height: 4rem;
-  background: #343A40;
-  width: 100%;
-  margin-bottom: 3.5rem;
-}
 
 #main-content {
   margin-bottom: 10rem;

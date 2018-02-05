@@ -52,23 +52,31 @@
         <h2 class='text-center'>Music Shop</h2>
       </div>
     </header>
-    <div class="content-divider"></div>
     <main id="main-content">
       <div class="container">
         <div class="row">
           <div class="col">
             <h1 class='text-center'>Instruments</h1>
-            <p class='text-justify'>Very large invetory of musical instruments including top brand guitars, drums, bass guitars.</p>
+            <p class='text-justify'>Very large invetory of musical instruments including top brand guitars, drums, bass guitars.
+              Also, choose any color or upload an image, and we'll customize the instrument for you.
+            </p>
             <a href='#' class='btn btn-primary d-block mx-auto main-link'>Instruments</a>
           </div>
           <div class="col">
             <h1 class='text-center'>Music</h1>
-            <p class='text-justify'>Tons of retro music records, with perserved records dating back to 50's</p>
+            <p class='text-justify'>
+              Tons of retro music records, with perserved records dating back to 50's.
+              Including <strong>Elvis Presley</strong>, <strong>The Beatles</strong>, <strong>The Crows</strong>
+              and many more.
+            </p>
             <a href='#' class='btn btn-primary d-block mx-auto main-link'>Music</a>
           </div>
           <div class="col">
             <h1 class='text-center'>Utilities</h1>
-            <p class='text-justify'>Guitar picks, amps, cables, mixers. You name it, we have it!</p>
+            <p class='text-justify'>
+              Heavily customizable accessories every musician need.
+              Guitar picks, amps, cables, mixers, drum sticks. You name it, we have it!
+            </p>
             <a href='#' class='btn btn-primary d-block mx-auto main-link'>Utilities</a>
           </div>
         </div>
