@@ -45,10 +45,11 @@
         </div>
       </div>
       <div class='container-fluid notes-container'>
-        <?php echo file_get_contents("images/icon.svg"); ?>
-        <?php echo file_get_contents("images/icon.svg"); ?>
-        <?php echo file_get_contents("images/icon.svg"); ?>
-        <a href='#' class='btn btn-primary d-block mx-auto get-started'>Get Started</a>
+        <?php for ($i=0; $i < 20; $i++):
+                 echo file_get_contents("images/icon.svg");
+              endfor ?>
+            <h1 class='text-center'>Get what you want right now</h1>
+        <a href='#' class='btn btn-primary d-block mx-auto get-started'>Show Now</a>
       </div>
     </main>
     <footer class='main-footer-dark'>

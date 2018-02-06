@@ -1,27 +1,42 @@
-function Note(svgElement, maxLeft) {
-  this.svgElement = svgElement;
-  this.left = 0; // initial left
-  this.maxLeft = maxLeft
+function Note(svgElement, maxLeft, maxHeight) {
+  this.svgElement     = svgElement;
+  this.left           = -30;
+  this.maxLeft        = maxLeft + 10;
+  this.moveSpeed      = 4;
+  this.delay          = Math.floor(Math.random() * 30);
+  this.top            = Math.floor(Math.random() * maxHeight);;
 }
 
 Note.prototype.startMoving = function() {
-  setInterval(this.move.bind(this), 10);
+  this.delay -= 0.5;
+  if(this.delay < 0) {
+    window.requestAnimationFrame(this.move.bind(this));
+  } else {
+    window.requestAnimationFrame(this.startMoving.bind(this));
+  }
 }
 
 Note.prototype.move = function() {
-  this.left += 2;
+  this.left += this.moveSpeed;
 
-  if(this.left > this.maxLeft) this.left = 0;
-
+  if(this.left > this.maxLeft) {
+    this.left = -30;
+  }
   // Update the dom element
   this.svgElement.css({
-    "left": this.left + "px"
+    "left": this.left + "px",
+    "top": this.top + "px"
   });
+
+  window.requestAnimationFrame(this.move.bind(this));
 }
 
 
 $(document).ready(function() {
+  var notesContainer = $(".notes-container").first();
   // init
-  var note1 = new Note($(".violin-key").first(), 300);
-  note1.startMoving();
+  $(".violin-key").each(function(index, elem) {
+    var note = new Note($(elem), notesContainer.width(), notesContainer.height());
+    note.startMoving();
+  });
 });
