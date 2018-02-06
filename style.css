@@ -109,10 +109,11 @@ a.btn-primary:visited {
 }
 
 .notes-container {
+  position: relative;
   margin-top: 5rem;
   height: 10rem;
   background: crimson;
-  position: relative;
+  overflow-x: hidden;
 }
 
 .get-started {
