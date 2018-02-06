@@ -108,6 +108,38 @@ a.btn-primary:visited {
   outline: none !important;
 }
 
+.notes-container {
+  margin-top: 5rem;
+  height: 10rem;
+  background: crimson;
+  position: relative;
+}
+
+.get-started {
+  z-index: 0;
+  width: 10rem;
+}
+
+.violin-key {
+  position:absolute;
+  top: 20px;
+  animation-name: spin;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 9999;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 @media only screen and (max-width: 60rem) {
   .header-image {
     height: 30rem;

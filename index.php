@@ -44,6 +44,12 @@
           </div>
         </div>
       </div>
+      <div class='container-fluid notes-container'>
+        <?php echo file_get_contents("images/icon.svg"); ?>
+        <?php echo file_get_contents("images/icon.svg"); ?>
+        <?php echo file_get_contents("images/icon.svg"); ?>
+        <a href='#' class='btn btn-primary d-block mx-auto get-started'>Get Started</a>
+      </div>
     </main>
     <footer class='main-footer-dark'>
       <p class='text-center'>Open Source softwere under MIT licence<p>
