@@ -108,43 +108,6 @@ a.btn-primary:visited {
   outline: none !important;
 }
 
-.notes-container {
-  position: relative;
-  margin-top: 5rem;
-  height: 10rem;
-  background: crimson;
-  overflow-x: hidden;
-}
-
-.get-started {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 1.4rem;
-  z-index: 9999;
-  width: 10rem;
-}
-
-.violin-key {
-  position:absolute;
-  left: -40px;
-  animation-name: spin;
-  animation-duration: 1.3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  z-index: 0;
-}
-
-@keyframes spin {
-  from {
-    transform: rotateZ(0deg);
-  }
-
-  to {
-    transform: rotateZ(360deg);
-  }
-}
-
 @media only screen and (max-width: 60rem) {
   .header-image {
     height: 30rem;
