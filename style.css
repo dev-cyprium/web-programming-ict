@@ -40,11 +40,12 @@ a:focus {
 }
 
 .header-image h2 {
-  color: #77AE22;
+  color: white;
   text-transform: lowercase;
   margin: -0.5em 1em;
   font-size: 4em;
   font-style: italic;
+  text-shadow: 3px 3px 4px black;
 }
 
 .name-wrapper {

@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top border-bottom-black">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="/">
     Choral
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation" >
