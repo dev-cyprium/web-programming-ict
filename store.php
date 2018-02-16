@@ -14,13 +14,18 @@
         <div class='col-lg-4'>
           <h1>Categories</h1>
           <ul class='list-group'>
-            <li class='list-group-item d-flex justify-content-between align-items-center'>
-              Guitars
-              <span class='badge badge-green badge-pill normal-font'>20</span>
-            </li>
-            <li class='list-group-item d-flex justify-content-between align-items-center'>
-              Bass Guitars
-              <span class='badge badge-green badge-pill normal-font'>8</span>
+            <li class="list-group-item">
+              <ul class='list-group'>
+                Instruments
+                <li class='list-group-item d-flex justify-content-between align-items-center'>
+                  Guitars
+                  <span class='badge badge-green badge-pill normal-font'>20</span>
+                </li>
+                <li class='list-group-item d-flex justify-content-between align-items-center'>
+                  Bass Guitars
+                  <span class='badge badge-green badge-pill normal-font'>8</span>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
