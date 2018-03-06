@@ -1,8 +1,10 @@
 (function($) {
 
-  var sliderContainer;
+  var dimensions;
   var currentImage;
+  var $container;
   var opts;
+  var dime
 
   var methods = {
     init: init,
@@ -23,32 +25,27 @@
     opts = {
       speed: 2500
     }
-    this.find("img").hide();
-    currentImage = this.find("img").eq(0);
-    var imgHeight = currentImage.height();
-    this.css('height', imgHeight + "px");
-    currentImage.show();
+    $container = $("<div>");
+    $container.addClass('image-container').appendTo(this);
+    this.find('img').appendTo($container);
+    w = this.find('img').eq(0).width();
+    h = this.find('img').eq(0).height();
+    dimensions = {width: w, height: h};
+    $container.css({
+      width: 3*w + "px",
+      height: h + "px",
+      transition: "all 1s ease-out"
+    });
+    currentImage = this.find('img').eq(0);
+    this.find('img').show();
+    return this;
   }
 
   function next() {
-    // currentImage.hide();
     var nextImage = getNext();
-    nextImage.show();
-    var width = nextImage.width();
-    nextImage.css({
-        left: width + "px"
-    });
-
-
-    
-    nextImage.animate({
-      left: 0
-    }, opts.speed);
-    currentImage.animate({
-      left: -width + "px"
-    }, opts.speed);
-
-    setTimeout(function() {currentImage = nextImage;}, 1000);
+    var slideTo   = nextImage.position().left;
+    $container.css('transform', `translate3d(-${slideTo}px, 0, 0)`)
+    setTimeout(function() { currentImage = nextImage }, 1000);
   }
 
   function getNext() {
@@ -58,5 +55,8 @@
 
 
 $(document).ready(function() {
-  $(".my-slider").slider();
+  var slider = $(".my-slider").slider();
+  $("#next").click(function() {
+    slider.slider('next');
+  })
 });

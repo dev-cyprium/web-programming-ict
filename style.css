@@ -127,10 +127,14 @@ a.btn-primary:visited {
   overflow: hidden;
 }
 
+.image-container {
+  display: flex;
+}
+
 .my-slider img {
-  position: absolute;
-  width: 40rem;
-  height: 20.3rem;
+  width: 100%;
+  height: auto;
+  display: none;
 }
 
 /* Media queries */
