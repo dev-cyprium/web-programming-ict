@@ -50,7 +50,7 @@
       <p class='text-center'><span>Stefan Kupresak</span> | <a href="http://www.bluegrid.io/" target="_blank">Blue Grid Doo</a> | <a href="https://github.com/dev-cyprium/web-programming-ict" target="_blank"> GitHub</a></p>
     </footer>
 
-
+    
     <script type="text/javascript" src='sajt.js'>
 
     </script>

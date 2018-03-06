@@ -122,6 +122,17 @@ a.btn-primary:visited {
   color: white;
 }
 
+.my-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.my-slider img {
+  position: absolute;
+  width: 40rem;
+  height: 20.3rem;
+}
+
 /* Media queries */
 @media only screen and (max-width: 60rem) {
   .header-image {

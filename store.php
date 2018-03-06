@@ -30,9 +30,16 @@
           </ul>
         </div>
         <div class='col-lg-8'>
-          
+          <div class='my-slider'>
+            <img src='/images/slider-1.jpg' alt='slide-1' />
+            <img src='/images/slider-2.jpg' alt='slide-2' />
+            <img src='/images/slider-3.jpg' alt='slide-3' />
+          </div>
         </div>
       </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="slajder.js"></script>
   </body>
 </html>
