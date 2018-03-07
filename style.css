@@ -127,6 +127,18 @@ a.btn-primary:visited {
   overflow: hidden;
 }
 
+.my-slider h1 {
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  background: white;
+  padding: .5em 1.25em;
+  font-size: 1.5rem;
+  opacity: 0.75;
+  margin: 0 !important;
+}
+
 .image-container {
   display: flex;
 }
