@@ -125,6 +125,7 @@ a.btn-primary:visited {
 .my-slider {
   position: relative;
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 .my-slider h1 {
@@ -141,6 +142,10 @@ a.btn-primary:visited {
 
 .image-container {
   display: flex;
+}
+
+#shop .row {
+  margin-bottom: 1.5em;
 }
 
 .my-slider img {

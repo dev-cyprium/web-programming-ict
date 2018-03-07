@@ -13,27 +13,81 @@
       <div class='row'>
         <div class='col-lg-4'>
           <h1>Categories</h1>
-          <ul class='list-group'>
-            <li class="list-group-item">
-              <ul class='list-group'>
-                Instruments
-                <li class='list-group-item d-flex justify-content-between align-items-center'>
-                  Guitars
-                  <span class='badge badge-green badge-pill normal-font'>20</span>
-                </li>
-                <li class='list-group-item d-flex justify-content-between align-items-center'>
-                  Bass Guitars
-                  <span class='badge badge-green badge-pill normal-font'>8</span>
-                </li>
-              </ul>
-            </li>
-          </ul>
+            <ul class='list-group'>
+              Instruments
+              <li class='list-group-item d-flex justify-content-between align-items-center'>
+                Guitars
+                <span class='badge badge-green badge-pill normal-font'>20</span>
+              </li>
+              <li class='list-group-item d-flex justify-content-between align-items-center'>
+                Bass Guitars
+                <span class='badge badge-green badge-pill normal-font'>8</span>
+              </li>
+            </ul>
         </div>
-        <div class='col-lg-8'>
+        <div class='col-lg-8' id="shop">
           <div class='my-slider'>
             <img src='/images/slider-1.jpg' alt='slide-1' />
             <img src='/images/slider-2.jpg' alt='slide-2' />
             <img src='/images/slider-3.jpg' alt='slide-3' />
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="class-title">Product</h4>
+                  <h5>24.54$</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="class-title">Product</h4>
+                  <h5>24.54$</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="class-title">Product</h4>
+                  <h5>24.54$</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="class-title">Product</h4>
+                  <h5>24.54$</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="class-title">Product</h4>
+                  <h5>24.54$</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="class-title">Product</h4>
+                  <h5>24.54$</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
