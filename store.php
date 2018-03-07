@@ -36,7 +36,6 @@
             <img src='/images/slider-3.jpg' alt='slide-3' />
           </div>
         </div>
-        <button id="next">Next</button>
       </div>
     </div>
 

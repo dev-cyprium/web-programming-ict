@@ -28,6 +28,8 @@
       speed: 2500
     }
     labels = config.labels || [];
+    var duration = config.autoSlide.duration || 1000;
+    var autoSlide = config.autoSlide.enabled || false;
 
     $container = $("<div>");
     $container.addClass('image-container').appendTo(this);
@@ -50,6 +52,10 @@
     $label.animate({
       bottom: 0
     }, 1000);
+
+    if(autoSlide) {
+      setInterval(next, duration);
+    }
 
     return this;
   }
@@ -81,9 +87,10 @@ $(document).ready(function() {
       {text: "Professional pianos"},
       {text: "Awesome guitars"},
       {text: "Top quality drums"}
-    ]
+    ],
+    autoSlide: {
+      enabled: true,
+      duration: 2500
+    }
   });
-  $("#next").click(function() {
-    slider.slider('next');
-  })
 });
