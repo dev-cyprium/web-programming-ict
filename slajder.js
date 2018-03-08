@@ -7,6 +7,8 @@
   var dimensions;
   var currentImage;
   var $container, labels, opts;
+  var mouseInside;
+  var $leftArrow;
 
   var methods = {
     init: init,
@@ -34,8 +36,8 @@
     $container = $("<div>");
     $container.addClass('image-container').appendTo(this);
     this.find('img').appendTo($container);
-    w = this.find('img').eq(0).width();
-    h = this.find('img').eq(0).height();
+    var w = this.find('img').eq(0).width();
+    var h = this.find('img').eq(0).height();
     dimensions = {width: w, height: h};
     $container.css({
       width: 3*w + "px",
@@ -53,15 +55,49 @@
       bottom: 0
     }, 1000);
 
+    $leftArrow = $(`
+      <div class='left-arrow'>
+        <span class='fas fa-chevron-left'></span>
+      </div>
+    `);
+
+    $rightArrow = $(`
+      <div class='right-arrow'>
+        <span class='fas fa-chevron-right'></span>
+      </div>
+    `);
+
+    this.append($leftArrow);
+    this.append($rightArrow);
+
+    this.hover(() => { mouseInside = true; }, () => { mouseInside = false; });
+
+    $rightArrow.click(next);
+    $leftArrow.click(prev);
+
     if(autoSlide) {
-      setInterval(next, duration);
+      setInterval(autoNext, duration);
     }
 
     return this;
   }
 
+  function autoNext() {
+    if(mouseInside) return true;
+    next();
+  }
+
+  function prev() {
+    var prevImage = getPrev();
+    performSlide(prevImage);
+  }
+
   function next() {
     var nextImage = getNext();
+    performSlide(nextImage);
+  }
+
+  function performSlide(nextImage) {
     var slideTo   = nextImage.position().left;
     var height    = $label.height();
     $container.css('transform', `translate3d(-${slideTo}px, 0, 0)`)
@@ -78,6 +114,10 @@
   function getNext() {
     return currentImage.next().length ? currentImage.next() : currentImage.parent().children(':first-child');
   }
+
+  function getPrev() {
+    return currentImage.prev().length ? currentImage.prev() : currentImage.parent().children(':last-child');
+  }
 })(jQuery);
 
 
@@ -90,7 +130,7 @@ $(document).ready(function() {
     ],
     autoSlide: {
       enabled: true,
-      duration: 2500
+      duration: 3200
     }
   });
 });

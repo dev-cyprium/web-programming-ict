@@ -148,6 +148,31 @@ a.btn-primary:visited {
   margin-bottom: 1.5em;
 }
 
+.left-arrow,
+.right-arrow {
+  cursor: pointer;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 2rem;
+  left: 10px;
+  opacity: 0.75;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 2rem;
+  right: 10px;
+  opacity: 0.75;
+}
+
 .my-slider img {
   width: 100%;
   height: auto;
