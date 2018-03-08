@@ -31,69 +31,7 @@
             <img src='/images/slider-2.jpg' alt='slide-2' />
             <img src='/images/slider-3.jpg' alt='slide-3' />
           </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h4 class="class-title">Product</h4>
-                  <h5>24.54$</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card h-100">
-                <a href="#">
-                  <img class="card-img-top" src="images/g1.jpg" />
-                </a>
-                <div class="card-body">
-                  <h4 class="class-title">Product</h4>
-                  <h5>24.54$</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">★ ★ ★ ★ ☆</small>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h4 class="class-title">Product</h4>
-                  <h5>24.54$</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h4 class="class-title">Product</h4>
-                  <h5>24.54$</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h4 class="class-title">Product</h4>
-                  <h5>24.54$</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h4 class="class-title">Product</h4>
-                  <h5>24.54$</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
-                </div>
-              </div>
-            </div>
+          <div class="row" id="produkti">            
           </div>
         </div>
       </div>

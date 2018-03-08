@@ -4,14 +4,16 @@
     "price": "800$",
     "src"  : "images/g1.jpg",
     "alt"  : "gatara1",
-    "opis" : "Fine wood and craftmenshipt, this guitar is made from the finest Birch"
+    "opis" : "Fine wood and craftmenshipt, this guitar is made from the finest Birch",
+    "ocena": 4
   },
   {
     "name" : "Vox Virage III",
     "price": "999$",
     "src"  : "images/g2.jpg",
     "alt"  : "gitara2",
-    "opis" : "Top-notch quality Birch, for more advanced users"
+    "opis" : "Top-notch quality Birch, for more advanced users",
+    "ocena": 5
   },
   {
 
