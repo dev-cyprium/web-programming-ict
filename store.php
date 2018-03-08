@@ -43,10 +43,16 @@
             </div>
             <div class="col-lg-4">
               <div class="card h-100">
+                <a href="#">
+                  <img class="card-img-top" src="images/g1.jpg" />
+                </a>
                 <div class="card-body">
                   <h4 class="class-title">Product</h4>
                   <h5>24.54$</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">★ ★ ★ ★ ☆</small>
                 </div>
               </div>
             </div>
@@ -96,5 +102,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="slajder.js"></script>
+    <script src="proizvodi.js"></script>
   </body>
 </html>

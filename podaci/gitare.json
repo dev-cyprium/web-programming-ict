@@ -4,34 +4,22 @@
     "price": "800$",
     "src"  : "images/g1.jpg",
     "alt"  : "gatara1",
-    "opis" : "Pedantno zanatstvo, izuzetno svestrana svirka sa ovom gitarom! Bajaga se od svoje ne odvaja!
-"
+    "opis" : "Fine wood and craftmenshipt, this guitar is made from the finest Birch"
   },
-
   {
-    "name" : "Vox Virage II DC",
-    "price": "800$",
-    "src"  : "images/g1.jpg",
-    "alt"  : "gatara1",
-    "opis" : "Pedantno zanatstvo, izuzetno svestrana svirka sa ovom gitarom! Bajaga se od svoje ne odvaja!
-  "
+    "name" : "Vox Virage III",
+    "price": "999$",
+    "src"  : "images/g2.jpg",
+    "alt"  : "gitara2",
+    "opis" : "Top-notch quality Birch, for more advanced users"
   },
-
   {
-    "name" : "Vox Virage II DC",
-    "price": "800$",
-    "src"  : "images/g1.jpg",
-    "alt"  : "gatara1",
-    "opis" : "Pedantno zanatstvo, izuzetno svestrana svirka sa ovom gitarom! Bajaga se od svoje ne odvaja!
-  "
+
   },
-
   {
-    "name" : "Vox Virage II DC",
-    "price": "800$",
-    "src"  : "images/g1.jpg",
-    "alt"  : "gatara1",
-    "opis" : "Pedantno zanatstvo, izuzetno svestrana svirka sa ovom gitarom! Bajaga se od svoje ne odvaja!
-  "
-  } 
+
+  },
+  {
+
+  }
 ]
