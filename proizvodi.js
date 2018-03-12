@@ -11,9 +11,8 @@ $(document).ready(function() {
     }
   });
 
-  var tip = getParameterByName("tip");
-  console.log(tip);
-  fetchProduct();
+  var tip = getParameterByName("tip") || "gitare";
+  fetchProduct(tip);
 });
 
 function getParameterByName(name, url) {
@@ -26,10 +25,10 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-function fetchProduct() {
+function fetchProduct(tip) {
   $.ajax({
     method: 'get',
-    url: '/podaci/gitare.json',
+    url: '/podaci/' + tip + '.json',
     success: function(data) {
       data.forEach(function(pr) {
         var t = $(proizvodTemplate(pr));
