@@ -12,8 +12,18 @@ $(document).ready(function() {
   });
 
   var tip = getParameterByName("tip") || "gitare";
+  initLinks();
   fetchProduct(tip);
 });
+
+function initLinks() {
+  $("#navBar a").click(function(e) {
+    e.preventDefault();
+    var target = $(this).data('target');
+    console.log(target);
+    fetchProduct(target);
+  });
+}
 
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
@@ -30,6 +40,7 @@ function fetchProduct(tip) {
     method: 'get',
     url: '/podaci/' + tip + '.json',
     success: function(data) {
+      $("#produkti").html("");
       data.forEach(function(pr) {
         var t = $(proizvodTemplate(pr));
         $("#produkti").append(t);
