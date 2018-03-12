@@ -16,12 +16,35 @@
     "ocena": 5
   },
   {
-
+    "name" : "Volt Stock",
+    "price": "850$",
+    "src"  : "images/g3.jpg",
+    "alt"  : "gitara3",
+    "opis" : "A simple squire guitar for intermidiete musicians",
+    "ocena": 3
   },
   {
-
+    "name" : "Black Widow",
+    "price": "1200$",
+    "src"  : "images/g4.jpg",
+    "alt"  : "gitara4",
+    "opis" : "One of the best guitars for it's price. Perfect tune and sturdy design",
+    "ocena": 5
   },
   {
-
+    "name" : "Wood picker",
+    "price": "220$",
+    "src"  : "images/g5.jpg",
+    "alt"  : "gitara5",
+    "opis" : "Cheek & amateur guitar ready for jammin'",
+    "ocena": 2
+  },
+  {
+    "name" : "Black Hole I",
+    "price": "1200$",
+    "src"  : "images/g6.jpg",
+    "alt"  : "gitara6",
+    "opis" : "This design from the 80's will allow you to rock out at any show",
+    "ocena": 4
   }
 ]

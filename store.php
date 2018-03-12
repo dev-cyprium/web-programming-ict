@@ -14,10 +14,9 @@
         <div class='col-lg-4'>
           <h1>Categories</h1>
             <ul class='list-group'>
-              Instruments
               <li class='list-group-item d-flex justify-content-between align-items-center'>
                 Guitars
-                <span class='badge badge-green badge-pill normal-font'>20</span>
+                <span class='badge badge-green badge-pill normal-font'>6</span>
               </li>
               <li class='list-group-item d-flex justify-content-between align-items-center'>
                 Bass Guitars
@@ -31,7 +30,7 @@
             <img src='/images/slider-2.jpg' alt='slide-2' />
             <img src='/images/slider-3.jpg' alt='slide-3' />
           </div>
-          <div class="row" id="produkti">            
+          <div class="row" id="produkti">
           </div>
         </div>
       </div>

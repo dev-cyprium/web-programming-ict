@@ -148,6 +148,10 @@ a.btn-primary:visited {
   margin-bottom: 1.5em;
 }
 
+#produkti .col-lg-4 {
+  margin-bottom: 1.5em !important;
+}
+
 .left-arrow,
 .right-arrow {
   cursor: pointer;
