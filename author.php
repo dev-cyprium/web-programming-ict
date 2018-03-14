@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Author | Music Shop</title>
 
-    <?php $activeLink = 1; ?>
+    <?php $activeLink = 3; ?>
     <?php include_once("templates/_includes.php"); ?>
 </head>
 <body>

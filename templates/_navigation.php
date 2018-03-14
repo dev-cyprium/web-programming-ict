@@ -16,7 +16,7 @@
       <li class="nav-item">
         <a class="nav-link" href='contact.php'>Contact</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item <?php if ($activeLink == 3) echo 'active'; ?>">
         <a class="nav-link" href='author.php'>Author</a>
       </li>
       <li class="nav-item">
