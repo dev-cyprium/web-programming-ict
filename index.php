@@ -4,8 +4,17 @@
     <meta charset="utf-8">
     <title>Music Shop</title>
 
+
     <?php $activeLink = 1; ?>
     <?php include_once("templates/_includes.php"); ?>
+
+    <meta
+    name="description"
+    content="Choral shop has very large invetory of musical instruments, tons of cheep and top quality instrumenst and much more" />
+
+    <meta name="keywords"
+      content="choral, shop, music, instruments, guitar, bass, drums, utilities" />
+    <meta name="author" content="Stefan Kupresak" />
   </head>
   <body>
     <?php include_once("templates/_navigation.php"); ?>
@@ -50,7 +59,7 @@
       <p class='text-center'><span>Stefan Kupresak</span> | <a href="http://www.bluegrid.io/" target="_blank">Blue Grid Doo</a> | <a href="https://github.com/dev-cyprium/web-programming-ict" target="_blank"> GitHub</a></p>
     </footer>
 
-    
+
     <script type="text/javascript" src='js/index.js'>
 
     </script>
