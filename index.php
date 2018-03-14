@@ -23,7 +23,7 @@
             <p class='text-justify'>Very large invetory of musical instruments including top brand guitars, drums, bass guitars.
               Also, choose any color or upload an image, and we'll customize the instrument for you.
             </p>
-            <a href='#' class='btn btn-primary d-block mx-auto main-link'>Instruments</a>
+            <a href='#' data-target="gitare" class='btn btn-primary d-block mx-auto main-link store-item'>Instruments</a>
           </div>
           <div class="col">
             <h1 class='text-center'>Music</h1>
@@ -32,7 +32,7 @@
               Including <strong>Elvis Presley</strong>, <strong>The Beatles</strong>, <strong>The Crows</strong>
               and many more.
             </p>
-            <a href='#' class='btn btn-primary d-block mx-auto main-link'>Music</a>
+            <a href='#' data-target="ploce" class='btn btn-primary d-block mx-auto main-link store-item'>Music</a>
           </div>
           <div class="col">
             <h1 class='text-center'>Utilities</h1>
@@ -40,18 +40,18 @@
               Heavily customizable accessories every musician need.
               Guitar picks, amps, cables, mixers, drum sticks. You name it, we have it!
             </p>
-            <a href='#' class='btn btn-primary d-block mx-auto main-link'>Utilities</a>
+            <a href='#' data-target="oprema" class='btn btn-primary d-block mx-auto main-link store-item'>Utilities</a>
           </div>
         </div>
       </div>
     </main>
     <footer class='main-footer-dark'>
-      <p class='text-center'>Open Source softwere under MIT licence<p>
+      <p class='text-center'>Open Source software under MIT licence<p>
       <p class='text-center'><span>Stefan Kupresak</span> | <a href="http://www.bluegrid.io/" target="_blank">Blue Grid Doo</a> | <a href="https://github.com/dev-cyprium/web-programming-ict" target="_blank"> GitHub</a></p>
     </footer>
 
     
-    <script type="text/javascript" src='sajt.js'>
+    <script type="text/javascript" src='js/index.js'>
 
     </script>
   </body>

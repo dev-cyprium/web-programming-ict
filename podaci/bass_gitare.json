@@ -1,0 +1,51 @@
+[
+  {
+    "name" : "Soundsation SMM105",
+    "price": "250$",
+    "src"  : "images/bg1.jpg",
+    "alt"  : "bass-gatara1",
+    "opis" : "Doloribus iste minus officia reiciendis sint totam.",
+    "ocena": 3
+  },
+  {
+    "name" : "Soundsation SBI 101-5BB BK",
+    "price": "200$",
+    "src"  : "images/bg2.jpg",
+    "alt"  : "bass-gitara2",
+    "opis" : "Ab amet atque blanditiis consequuntur cum dolor facilis",
+    "ocena": 3
+  },
+  {
+    "name" : "Cort Artisan C4H WP",
+    "price": "500$",
+    "src"  : "images/bg3.jpg",
+    "alt"  : "bass-gitara3",
+    "opis" : "Ab eos pariatur repellat saepe vero.",
+    "ocena": 4
+  },
+  {
+    "name" : "Cort GB34J 3TS",
+    "price": "360$",
+    "src"  : "images/bg4.jpg",
+    "alt"  : "bass-gitara4",
+    "opis" : "Incidunt repudiandae, tempore.",
+    "ocena": 4
+  },
+  {
+    "name" : "Soundsation BCE-500M",
+    "price": "360$",
+    "src"  : "images/bg5.jpg",
+    "alt"  : "bass-gitara5",
+    "opis" : "Akusticna bass gitara",
+    "ocena": 4
+  },
+  {
+    "name" : "Ibanez GSR200 BK",
+    "price": "330$",
+    "src"  : "images/bg6.jpg",
+    "alt"  : "bass-gitara6",
+    "opis" : "Accusamus aspernatur blanditiis dolor ducimus",
+    "ocena": 3
+  }
+]
+

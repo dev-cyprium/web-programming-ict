@@ -16,7 +16,7 @@ a:focus {
 }
 
 .header-image {
-  background: url("images/landing-2.jpg") no-repeat top center fixed;
+  background: url("../images/landing-2.jpg") no-repeat top center fixed;
   height: 40rem;
   background-size: cover;
 

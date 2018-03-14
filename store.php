@@ -19,9 +19,21 @@
                 <span class='badge badge-green badge-pill normal-font'>6</span>
               </li>
               <li class='list-group-item d-flex justify-content-between align-items-center'>
-                <a href='#' data-target='bass'>Bass Guitars</a>
+                <a href='#' data-target='bass_gitare'>Bass Guitars</a>
                 <span class='badge badge-green badge-pill normal-font'>8</span>
               </li>
+                <li class='list-group-item d-flex justify-content-between align-items-center'>
+                    <a href='#' data-target='bubnjevi'>Drums</a>
+                    <span class='badge badge-green badge-pill normal-font'>11</span>
+                </li>
+                <li class='list-group-item d-flex justify-content-between align-items-center'>
+                    <a href='#' data-target='ploce'>Phonograph records</a>
+                    <span class='badge badge-green badge-pill normal-font'>9</span>
+                </li>
+                <li class='list-group-item d-flex justify-content-between align-items-center'>
+                    <a href='#' data-target='oprema'>Utilities</a>
+                    <span class='badge badge-green badge-pill normal-font'>15</span>
+                </li>
             </ul>
         </div>
         <div class='col-lg-8' id="shop">
@@ -38,7 +50,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <script src="slajder.js"></script>
-    <script src="proizvodi.js"></script>
+    <script src="js/slajder.js"></script>
+    <script src="js/proizvodi.js"></script>
   </body>
 </html>
