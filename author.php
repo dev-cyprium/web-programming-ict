@@ -48,7 +48,7 @@
                                 <span class="percent-label">90%</span>
                             </li>
                             <li class="language-item progress">
-                                <div class="process-bar bg-info" role="progressbar" style="width: 95%" aria-valuenow=95" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="process-bar bg-info" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                 <div class="item-text">Javascript</div>
                                 <span class="percent-label">95%</span>
                             </li>
