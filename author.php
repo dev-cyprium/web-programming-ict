@@ -25,6 +25,7 @@
             <div class="col-6">
 
                 <div class="my-name-is">
+                    <img id="profile" src="/images/moja.jpg" />
                     <div class="title">HI, MY NAME IS STEFAN KUPRESAK</div>
                     <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi distinctio ducimus eligendi libero minus obcaecati odio quaerat, qui sunt veritatis. Culpa ea magnam minus nihil optio provident quidem repellendus saepe.</div>
                 </div>
