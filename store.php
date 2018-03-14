@@ -6,6 +6,13 @@
 
     <?php $activeLink = 2; ?>
     <?php include_once("templates/_includes.php"); ?>
+    <meta
+    name="description"
+    content="Browse our invetory of over 100 music categories and top notch quality instruments"
+    />
+    <meta name="keywords"
+      content="choral, shop, store, buy, creditcard, paypal" />
+    <meta name="author" content="Stefan Kupresak" />
   </head>
   <body>
     <?php include_once("templates/_navigation.php"); ?>
