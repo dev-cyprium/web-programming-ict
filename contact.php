@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Contact | Music Shop</title>
 
-    <?php $activeLink = 1; ?>
+    <?php $activeLink = 4; ?>
     <?php include_once("templates/_header_contact.php"); ?>
 </head>
 <body>
