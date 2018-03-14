@@ -27,15 +27,20 @@
                 <div class="my-name-is">
                     <img id="profile" src="/images/moja.jpg" />
                     <div class="title">HI, MY NAME IS STEFAN KUPRESAK</div>
-                    <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi distinctio ducimus eligendi libero minus obcaecati odio quaerat, qui sunt veritatis. Culpa ea magnam minus nihil optio provident quidem repellendus saepe.</div>
+                    <div class="content">
+                      And I'm a self though full stack developer, employed as a big data developer at Blue Grid. I'm passionate about learning new
+                      technologies, and currently, I program in Elixir and Node JS.
+                      Functional community has driven me for the past year, and I really enjoyed switching over to the mindset that
+                      feels more right then the OOP approach.
+                    </div>
                 </div>
                 <div class="facts">
                     <div class="title">FACTS ABOUT ME</div>
                     <div class="content">
                         <ul class="content-list">
-                            <li class="content-list-item">Accusamus ad architecto, at consequuntur dolorum harum, nesciunt omnis optio quibusdam recusandae repellat sapiente soluta voluptas. Error ipsum iste obcaecati possimus praesentium.</li>
-                            <li class="content-list-item">Aut delectus eligendi harum in incidunt laborum odio officiis quam rerum sed? Aspernatur consectetur consequatur, harum ipsum laudantium nobis perferendis sed ullam?</li>
-                            <li class="content-list-item">Ab accusantium at blanditiis, consequatur corporis culpa dicta doloribus esse exercitationem ipsa molestiae necessitatibus, nesciunt odit recusandae similique temporibus unde vel, vitae.</li>
+                            <li class="content-list-item">Like writting clean code and making project maintanance more easy and approachable</li>
+                            <li class="content-list-item">Several open source GitHub projects in tons of programming languages</li>
+                            <li class="content-list-item">Experience in working in teams and delivering high quality code fast</li>
                         </ul>
                     </div>
                 </div>
@@ -72,8 +77,11 @@
                     </div>
                 </div>
                 <div class="other">
-                    <div class="title">Bla bla</div>
-                    <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium labore quo repellendus soluta suscipit? Ad dignissimos eaque esse et laudantium pariatur placeat. Ipsa maxime modi mollitia, natus numquam quidem repellendus?</div>
+                    <div class="title">Like my Work?</div>
+                    <div class="content">
+                      Drop me an email at stefan.kupresak.68.16@ict.edu.rs
+                      Or contact me personally using the in-site contact form
+                    </div>
                 </div>
 
 
