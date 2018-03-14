@@ -1,0 +1,51 @@
+[
+  {
+    "name" : "'The Little Old Log Cabin in the Lane'",
+    "price": "7$",
+    "src"  : "images/ph.jpg",
+    "alt"  : "ploca1",
+    "opis" : "ARE-1003 ARETINO RECORD One-sided",
+    "ocena": 4
+  },
+  {
+    "name" : "'Way Down Upon The Swanee River'",
+    "price": "10$",
+    "src"  : "images/ph.jpg",
+    "alt"  : "ploca2",
+    "opis" : "ARE-1004 ARETINO RECORD One-sided ",
+    "ocena": 4
+  },
+  {
+    "name" : "'Jack Tar March'",
+    "price": "80$",
+    "src"  : "images/ph.jpg",
+    "alt"  : "ploca3",
+    "opis" : "BB-61 7\" BusyBee disc record # 61",
+    "ocena": 5
+  },
+  {
+    "name" : "'Banjo Evangelist'",
+    "price": "25$",
+    "src"  : "images/ph.jpg",
+    "alt"  : "ploca4",
+    "opis" : "ARE-1035 ARETINO RECORD One-sided",
+    "ocena": 4
+  },
+  {
+    "name" : "'The Whistling Bowery Boy'",
+    "price": "20$",
+    "src"  : "images/ph.jpg",
+    "alt"  : "ploca5",
+    "opis" : "ARE-1009 ARETINO RECORD One-sided",
+    "ocena": 4
+  },
+  {
+    "name" : "'Our Director March', 'Dancing Sun Rays'",
+    "price": "10$",
+    "src"  : "images/ph.jpg",
+    "alt"  : "ploca6",
+    "opis" : "ARE-0636 ARETINO RECORD Two-sided",
+    "ocena": 3
+  }
+
+]

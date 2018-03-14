@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Soundsation BU522ARR komplet set bubnja",
+    "price": "550$",
+    "src": "images/d1.jpg",
+    "alt": "bubnjevi1",
+    "opis": "Accusantium animi cupiditate illum impedit ipsum voluptate",
+    "ocena": 5
+  },
+  {
+    "name": "Soundsation SK522WR komplet set bubnja",
+    "price": "430$",
+    "src": "images/d2.jpg",
+    "alt": "bubnjevi2",
+    "opis": "Atque, commodi cumque delectus deserunt distinctio",
+    "ocena": 4
+  },
+  {
+    "name": "Shure BETA 98AMP",
+    "price": "360$",
+    "src": "images/d3.jpg",
+    "alt": "bubnjevi3",
+    "opis": "A, alias autem cum dignissimos ducimus",
+    "ocena": 4
+  },
+  {
+    "name": "Soundsation DMS-PRO-7",
+    "price": "290$",
+    "src": "images/d4.jpg",
+    "alt": "bubnjevi4",
+    "opis": "Provident quos recusandae rerum temporibus vero!",
+    "ocena": 4
+  },
+  {
+    "name": "Shure Beta98 DS",
+    "price": "270$",
+    "src": "images/d5.jpg",
+    "alt": "bubnjevi5",
+    "opis": "Animi autem blanditiis commodi consectetur distinctio",
+    "ocena": 4
+  },
+  {
+    "name": "ABC Latino DC-526 BK junior bubanj",
+    "price": "330$",
+    "src": "images/d6.jpg",
+    "alt": "bubnjevi6",
+    "opis": "Minima minus nulla officia quibusdam quis",
+    "ocena": 3
+  }
+]

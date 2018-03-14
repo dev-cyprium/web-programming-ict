@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Boston BB-405-C bas bridge",
+    "price": "4$",
+    "src": "images/ut1.jpg",
+    "alt": "oprema1",
+    "opis": " Doloribus iste minus officia reiciendis sint totam.",
+    "ocena": 3
+  },
+  {
+    "name": "Korg Sledgehammer PRO",
+    "price": "3$",
+    "src": "images/ut2.jpg",
+    "alt": "oprema2",
+    "opis": "Accusamus consectetur enim expedita",
+    "ocena": 4
+  },
+  {
+    "name": "Planet Waves PW-AMSG-10 kabl",
+    "price": "3$",
+    "src": "images/ut3.jpg",
+    "alt": "oprema3",
+    "opis": " Ab amet atque blanditiis consequuntur cum dolor",
+    "ocena": 4
+  },
+  {
+    "name": "Korg Humidi-Beat HB-1",
+    "price": "2$",
+    "src": "images/ut4.jpg",
+    "alt": "oprema4",
+    "opis": "Accusantium animi cupiditate illum impedit ipsum",
+    "ocena": 3
+  },
+  {
+    "name": "Soundsation SCWG",
+    "price": "8$",
+    "src": "images/ut5.jpg",
+    "alt": "oprema5",
+    "opis": "Quos recusandae rerum temporibus vero!",
+    "ocena": 4
+  },
+  {
+    "name": "VOX VGC-19 (6m)",
+    "price": "4$",
+    "src": "images/ut6.jpg",
+    "alt": "oprema6",
+    "opis": "Animi autem blanditiis commodi consectetur distinctio",
+    "ocena": 4
+  }
+]

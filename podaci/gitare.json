@@ -4,7 +4,7 @@
     "price": "800$",
     "src"  : "images/g1.jpg",
     "alt"  : "gatara1",
-    "opis" : "Fine wood and craftmenshipt, this guitar is made from the finest Birch",
+    "opis" : "Fine wood and craftsmanship, this guitar is made from the finest Birch",
     "ocena": 4
   },
   {
@@ -20,7 +20,7 @@
     "price": "850$",
     "src"  : "images/g3.jpg",
     "alt"  : "gitara3",
-    "opis" : "A simple squire guitar for intermidiete musicians",
+    "opis" : "A simple squire guitar for intermediate musicians",
     "ocena": 3
   },
   {
