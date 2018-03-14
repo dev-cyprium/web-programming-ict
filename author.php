@@ -6,6 +6,15 @@
 
     <?php $activeLink = 3; ?>
     <?php include_once("templates/_includes.php"); ?>
+
+    <meta
+      name="description"
+      content="Stefan Kupresak is a web designer making websites and web platforms with senior Elixir and Ruby experience"
+    />
+    <meta name="keywords"
+      content="Stefan, Kupresak, Elixir, programmign, Web, design, backend, frontend, development"
+    />
+    <meta name="author" content="Stefan Kupresak" />
 </head>
 <body>
 <?php include_once("templates/_navigation.php"); ?>
