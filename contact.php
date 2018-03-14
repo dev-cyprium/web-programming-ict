@@ -6,6 +6,14 @@
 
     <?php $activeLink = 4; ?>
     <?php include_once("templates/_header_contact.php"); ?>
+
+    <meta
+    name="description"
+    content="Contant us and get support in the next 24 hours, regarding your order payment or anything else"
+    />
+    <meta name="keywords"
+      content="choral, shop, music, contant, support, payment" />
+    <meta name="author" content="Stefan Kupresak" />
 </head>
 <body>
 <?php include_once("templates/_navigation.php"); ?>
