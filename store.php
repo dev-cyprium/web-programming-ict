@@ -22,7 +22,7 @@
           <h1>Categories</h1>
             <ul id="navBar" class='list-group'>
               <li class='list-group-item d-flex justify-content-between align-items-center'>
-                <a href='#' data-target='svi'>Svi</a>
+                <a href='#' data-target='svi'>All</a>
                 <span class='badge badge-green badge-pill normal-font'>30</span>
               </li>
               <li class='list-group-item d-flex justify-content-between align-items-center'>
