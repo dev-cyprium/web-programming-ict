@@ -11,7 +11,7 @@ $(document).ready(function() {
     }
   });
 
-  var tip = getParameterByName("tip") || "gitare";
+  var tip = getParameterByName("tip") || "svi";
   initLinks();
   fetchProduct(tip);
 });
