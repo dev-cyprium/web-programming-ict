@@ -39,6 +39,7 @@ function fetchProduct(tip) {
     dohvatiSve([], function(sve) {
       var data = sve.reduce((acc, current) => { return acc.concat(current); }, [])
       prikazi(data);
+      bind_search(data);
     });
   } else {
     $.ajax({
@@ -46,9 +47,24 @@ function fetchProduct(tip) {
       url: '/podaci/' + tip + '.json',
       success: function(data) {
         prikazi(data);
+        bind_search(data);
       }
     });
   }
+}
+
+function bind_search(data) {
+  $("#search-form").off();
+  $("#search-form").submit(function(e) {
+    e.preventDefault();
+    var searchVal = $("#search-form input").val();
+    var regex     = new RegExp(searchVal, "gi");
+    var toPrikaz = data.filter(function(item) {
+      if(searchVal == "") return true;
+      return regex.test(item.name);
+    });
+    prikazi(toPrikaz);
+  })
 }
 
 function prikazi(data) {
