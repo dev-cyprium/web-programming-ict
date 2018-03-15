@@ -193,6 +193,10 @@ a.btn-primary:visited {
   margin: 0 auto;
 }
 
+.search-form {
+  margin-top: 5em;
+}
+
 /* Media queries */
 @media only screen and (max-width: 60rem) {
   .header-image {

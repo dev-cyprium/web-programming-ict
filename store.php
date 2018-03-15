@@ -46,6 +46,16 @@
                     <span class='badge badge-green badge-pill normal-font'>6</span>
                 </li>
             </ul>
+            <form id="search-form">
+              <div class="form-row search-form">
+                <div class="col-9">
+                  <input type="text" class="form-control" placeholder="Search..." />
+                </div>
+                <div class="col-2">
+                  <button type="submit" class='btn btn-primary'>Search</button>
+                </div>
+              </div>
+            </form>
         </div>
         <div class='col-lg-8' id="shop">
           <div class='my-slider'>
