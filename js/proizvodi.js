@@ -20,7 +20,6 @@ function initLinks() {
   $("#navBar a").click(function(e) {
     e.preventDefault();
     var target = $(this).data('target');
-    console.log(target);
     fetchProduct(target);
   });
 }
@@ -36,16 +35,56 @@ function getParameterByName(name, url) {
 }
 
 function fetchProduct(tip) {
-  $.ajax({
-    method: 'get',
-    url: '/podaci/' + tip + '.json',
-    success: function(data) {
-      $("#produkti").html("");
-      data.forEach(function(pr) {
-        var t = $(proizvodTemplate(pr));
-        $("#produkti").append(t);
-      });
+  if(tip == "svi") {
+    dohvatiSve([], function(sve) {
+      var data = sve.reduce((acc, current) => { return acc.concat(current); }, [])
+      prikazi(data);
+    });
+  } else {
+    $.ajax({
+      method: 'get',
+      url: '/podaci/' + tip + '.json',
+      success: function(data) {
+        prikazi(data);
+      }
+    });
+  }
+}
+
+function prikazi(data) {
+  $("#produkti").html("");
+  data.forEach(function(pr) {
+    var t = $(proizvodTemplate(pr));
+    $("#produkti").append(t);
+  });
+}
+
+function dohvatiSve(niz, gotovo) {
+  var proizvodi = [
+    "bass_gitare",
+    "bubnjevi",
+    "gitare",
+    "oprema",
+    "ploce"
+  ]
+
+  var count = 0;
+  var zavrsio = function(data) {
+    count++;
+    niz.push(data);
+    if(count == proizvodi.length - 1) {
+      gotovo(niz);
     }
+  }
+
+  $.each(proizvodi, function(index, elem) {
+    $.ajax({
+      method: 'get',
+      url: '/podaci/' + elem + '.json',
+      success: function(data) {
+        zavrsio(data);
+      }
+    })
   });
 }
 

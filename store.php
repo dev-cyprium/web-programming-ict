@@ -22,24 +22,28 @@
           <h1>Categories</h1>
             <ul id="navBar" class='list-group'>
               <li class='list-group-item d-flex justify-content-between align-items-center'>
+                <a href='#' data-target='svi'>Svi</a>
+                <span class='badge badge-green badge-pill normal-font'>30</span>
+              </li>
+              <li class='list-group-item d-flex justify-content-between align-items-center'>
                 <a href='#' data-target='gitare'>Guitars</a>
                 <span class='badge badge-green badge-pill normal-font'>6</span>
               </li>
               <li class='list-group-item d-flex justify-content-between align-items-center'>
                 <a href='#' data-target='bass_gitare'>Bass Guitars</a>
-                <span class='badge badge-green badge-pill normal-font'>8</span>
+                <span class='badge badge-green badge-pill normal-font'>6</span>
               </li>
                 <li class='list-group-item d-flex justify-content-between align-items-center'>
                     <a href='#' data-target='bubnjevi'>Drums</a>
-                    <span class='badge badge-green badge-pill normal-font'>11</span>
+                    <span class='badge badge-green badge-pill normal-font'>6</span>
                 </li>
                 <li class='list-group-item d-flex justify-content-between align-items-center'>
                     <a href='#' data-target='ploce'>Phonograph records</a>
-                    <span class='badge badge-green badge-pill normal-font'>9</span>
+                    <span class='badge badge-green badge-pill normal-font'>6</span>
                 </li>
                 <li class='list-group-item d-flex justify-content-between align-items-center'>
                     <a href='#' data-target='oprema'>Utilities</a>
-                    <span class='badge badge-green badge-pill normal-font'>15</span>
+                    <span class='badge badge-green badge-pill normal-font'>6</span>
                 </li>
             </ul>
         </div>
