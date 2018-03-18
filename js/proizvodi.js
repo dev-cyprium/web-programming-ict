@@ -107,7 +107,7 @@ function dohvatiSve(niz, gotovo) {
 function proizvodTemplate(data) {
   var html = `<div class="col-lg-4">
     <div class="card h-100">
-      <a href="#">
+      <a href="${data.src}" data-lightbox="instruments" data-title="${data.name}">
         <img class="card-img-top" src="${data.src}" />
       </a>
       <div class="card-body">

@@ -6,6 +6,7 @@
 
     <?php $activeLink = 2; ?>
     <?php include_once("templates/_includes.php"); ?>
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
     <meta
     name="description"
     content="Browse our invetory of over 100 music categories and top notch quality instruments"
@@ -71,6 +72,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="dist/js/lightbox.min.js"></script>
     <script src="js/slajder.js"></script>
     <script src="js/proizvodi.js"></script>
   </body>
