@@ -70,6 +70,10 @@
       </div>
     </div>
 
+    <footer class='main-footer-dark'>
+      <p class='text-center'>Open Source software under MIT licence<p>
+      <p class='text-center'><span>Stefan Kupresak</span> | <a href="http://www.bluegrid.io/" target="_blank">Blue Grid Doo</a> | <a href="https://github.com/dev-cyprium/web-programming-ict" target="_blank"> GitHub</a></p>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="dist/js/lightbox.min.js"></script>
