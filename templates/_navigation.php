@@ -20,7 +20,7 @@
         <a class="nav-link" href='author.php'>Author</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="documentation.pdf">Documentation</a>
+        <a class="nav-link" target="_blank" href="documentation.pdf">Documentation</a>
       </li>
     </ul>
   </div>
