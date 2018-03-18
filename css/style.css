@@ -19,6 +19,13 @@ a:focus {
   color: #658700;
 }
 
+.error {
+  display: inline-block;
+  color: crimson;
+  float: right;
+  margin-left: auto;
+}
+
 .header-image {
   background: url("../images/landing-2.jpg") no-repeat top center fixed;
   height: 40rem;

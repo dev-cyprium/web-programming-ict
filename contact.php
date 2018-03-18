@@ -26,29 +26,29 @@
 					Send Us A Message
 				</span>
 
-                <label class="label-input100" for="first-name">Tell us your name *</label>
-                <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
+                <label class="label-input100" for="first-name">Tell us your name * <span class='error' id="name-error"></span></label>
+                <div class="wrap-input100 rs1-wrap-input100 validate-input">
                     <input id="first-name" class="input100" type="text" name="first-name" placeholder="First name">
                     <span class="focus-input100"></span>
                 </div>
-                <div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
-                    <input class="input100" type="text" name="last-name" placeholder="Last name">
+                <div class="wrap-input100 rs2-wrap-input100 validate-input">
+                    <input id="last-name" class="input100" type="text" name="last-name" placeholder="Last name">
                     <span class="focus-input100"></span>
                 </div>
 
-                <label class="label-input100" for="email">Enter your email *</label>
-                <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                <label class="label-input100" for="email">Enter your email * <span class='error' id="email-error"></span></label>
+                <div class="wrap-input100 validate-input">
                     <input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
                     <span class="focus-input100"></span>
                 </div>
 
-                <label class="label-input100" for="phone">Enter phone number</label>
+                <label class="label-input100" for="phone">Enter phone number<span class='error' id='phone-error'></span></label>
                 <div class="wrap-input100">
                     <input id="phone" class="input100" type="text" name="phone" placeholder="Eg. +1 800 000000">
                     <span class="focus-input100"></span>
                 </div>
 
-                <label class="label-input100" for="message">Message *</label>
+                <label class="label-input100" for="message">Message * <span class='error' id='message-error'></span></label>
                 <div class="wrap-input100 validate-input" data-validate="Message is required">
                     <textarea id="message" class="input100" name="message" placeholder="Write us a message"></textarea>
                     <span class="focus-input100"></span>
@@ -126,7 +126,7 @@
 
 
 <script type="text/javascript" src='sajt.js'>
-
 </script>
+<script src='js/validate.js'></script>
 </body>
 </html>
